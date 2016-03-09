@@ -35,7 +35,7 @@ struct UserAgentRequest : Request {
 ``` swift
 let request = UserAgentRequest()
 let client = Client()
-client.request(request).response { response in
+client.request(request) { response in
 	// value is instance of UserAgentResponse
 	let value = response.result.value?.userAgent 
 }
