@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.authors      = "chebur"
   s.license      = "MIT"
   s.homepage     = "https://github.com/elegion/ios-ELNNetworking"
+  s.dependency     "Alamofire"
 
 end
