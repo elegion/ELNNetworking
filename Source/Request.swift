@@ -26,7 +26,7 @@ public protocol RequestParametersSerializable {
 /// Protocol to describe HTTP requests and associated responses
 public protocol Request : RequestParametersSerializable {
     
-    typealias ResponseType: ResponseObjectSerializable
+    associatedtype ResponseType: ResponseObjectSerializable
     
 }
 
