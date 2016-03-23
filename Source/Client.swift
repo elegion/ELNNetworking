@@ -17,7 +17,7 @@ public class Client {
         self.manager = manager
     }
     
-    public func request<T: Request>(request: T, completionHandler: (Response<T.ResponseType, NSError> -> Void)? = nil) -> Alamofire.Request {
+    public func request<T: RequestConvertible>(request: T, completionHandler: (Response<T.ResponseType, NSError> -> Void)? = nil) -> Alamofire.Request {
         let URLRequest = request.requestParameters.URLRequest
         return manager.request(URLRequest).response{ (response: Response<T.ResponseType, NSError>) in
             if let completionHandler = completionHandler {

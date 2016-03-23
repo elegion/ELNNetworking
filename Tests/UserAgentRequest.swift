@@ -9,7 +9,7 @@
 import Foundation
 import ELNNetworking
 
-struct UserAgentResponse : ResponseObjectSerializable {
+struct UserAgentResponse : ResponseConvertible {
     
     var userAgent: String?
     
@@ -19,7 +19,7 @@ struct UserAgentResponse : ResponseObjectSerializable {
     
 }
 
-struct UserAgentRequest : Request {
+struct UserAgentRequest : RequestConvertible {
     
     typealias ResponseType = UserAgentResponse
     

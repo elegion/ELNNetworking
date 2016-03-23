@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 
 /// Protocol to serialize response object into swift models
-public protocol ResponseObjectSerializable {
+public protocol ResponseConvertible {
     
     init(response: NSHTTPURLResponse, representation: AnyObject) throws
 
@@ -24,16 +24,16 @@ public protocol RequestParametersSerializable {
 }
 
 /// Protocol to describe HTTP requests and associated responses
-public protocol Request : RequestParametersSerializable {
+public protocol RequestConvertible : RequestParametersSerializable {
     
-    associatedtype ResponseType: ResponseObjectSerializable
+    associatedtype ResponseType: ResponseConvertible
     
 }
 
 extension Alamofire.Request {
     
     /// Method to send Requests using custom Request object
-    public func response<T: ResponseObjectSerializable>(completionHandler: Response<T, NSError> -> Void) -> Self {
+    public func response<T: ResponseConvertible>(completionHandler: Response<T, NSError> -> Void) -> Self {
         let responseSerializer = ResponseSerializer<T, NSError> { request, response, data, error in
             guard error == nil else {
                 return .Failure(error!)
