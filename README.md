@@ -69,7 +69,7 @@ client.request(request) { response in
 # download source code, fix bugs, implement new features
 
 pod repo add legion https://github.com/elegion/ios-podspecs
-pod repo push legion ELNUtils.podspec
+pod repo push legion ELNNetworking.podspec
 ```
 ##TODO
 
