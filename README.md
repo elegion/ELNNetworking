@@ -1,4 +1,4 @@
-# ELFNetworking
+# ELNNetworking
 
 Библиотека для работы с сетью на свифте.
 
