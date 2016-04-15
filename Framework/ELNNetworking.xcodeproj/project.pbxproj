@@ -10,14 +10,14 @@
 		1107BA2A1C7862AF00C4E72E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118585B81C78607500577644 /* Alamofire.framework */; };
 		1107BA2C1C7864D100C4E72E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 118585B81C78607500577644 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		115A263A1C7841B0003DC820 /* RequestParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A26391C7841B0003DC820 /* RequestParametersTests.swift */; };
-		118585941C784FDC00577644 /* RequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118585931C784FDC00577644 /* RequestParameters.swift */; };
 		118585971C78509500577644 /* UserAgentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118585961C78509500577644 /* UserAgentRequest.swift */; };
 		118585BB1C78621F00577644 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118585B81C78607500577644 /* Alamofire.framework */; };
+		1192D5921CC121EF00BBBD50 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192D58D1CC121EF00BBBD50 /* Client.swift */; };
+		1192D5941CC121EF00BBBD50 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1192D58F1CC121EF00BBBD50 /* Networking.h */; };
+		1192D5951CC121EF00BBBD50 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192D5901CC121EF00BBBD50 /* Request.swift */; };
+		1192D5961CC121EF00BBBD50 /* RequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192D5911CC121EF00BBBD50 /* RequestParameters.swift */; };
 		11AAA6B31C783CD1005979F3 /* ELNNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AAA6A81C783CD1005979F3 /* ELNNetworking.framework */; };
-		11AAA6C61C783D30005979F3 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 11AAA6C41C783D30005979F3 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11AAA6CB1C783D3D005979F3 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AAA6C91C783D3D005979F3 /* ClientTests.swift */; };
-		11AAA6F21C783E16005979F3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AAA6F01C783E16005979F3 /* Client.swift */; };
-		11AAA6F31C783E16005979F3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AAA6F11C783E16005979F3 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,17 +45,17 @@
 
 /* Begin PBXFileReference section */
 		115A26391C7841B0003DC820 /* RequestParametersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParametersTests.swift; sourceTree = "<group>"; };
-		118585931C784FDC00577644 /* RequestParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParameters.swift; sourceTree = "<group>"; };
 		118585961C78509500577644 /* UserAgentRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgentRequest.swift; sourceTree = "<group>"; };
 		118585B81C78607500577644 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1192D58D1CC121EF00BBBD50 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		1192D58F1CC121EF00BBBD50 /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		1192D5901CC121EF00BBBD50 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		1192D5911CC121EF00BBBD50 /* RequestParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParameters.swift; sourceTree = "<group>"; };
+		1192D5981CC1220400BBBD50 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		11AAA6A81C783CD1005979F3 /* ELNNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AAA6B21C783CD1005979F3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11AAA6C31C783D30005979F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11AAA6C41C783D30005979F3 /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
 		11AAA6C81C783D3D005979F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11AAA6C91C783D3D005979F3 /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
-		11AAA6F01C783E16005979F3 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
-		11AAA6F11C783E16005979F3 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1192D58C1CC121EF00BBBD50 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1192D5971CC121FC00BBBD50 /* Supporting Files */,
+				1192D58D1CC121EF00BBBD50 /* Client.swift */,
+				1192D58F1CC121EF00BBBD50 /* Networking.h */,
+				1192D5901CC121EF00BBBD50 /* Request.swift */,
+				1192D5911CC121EF00BBBD50 /* RequestParameters.swift */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		1192D5971CC121FC00BBBD50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1192D5981CC1220400BBBD50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		11AAA69E1C783CD1005979F3 = {
 			isa = PBXGroup;
 			children = (
 				118585BA1C78607C00577644 /* Frameworks */,
 				11AAA6A91C783CD1005979F3 /* Products */,
-				11AAA6C21C783D30005979F3 /* Source */,
+				1192D58C1CC121EF00BBBD50 /* Source */,
 				11AAA6C71C783D3D005979F3 /* Tests */,
 			);
 			sourceTree = "<group>";
@@ -122,17 +143,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11AAA6C21C783D30005979F3 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				11AAA6F01C783E16005979F3 /* Client.swift */,
-				11AAA6F11C783E16005979F3 /* Request.swift */,
-				118585931C784FDC00577644 /* RequestParameters.swift */,
-				11AAA6F41C783E4E005979F3 /* Supporting Files */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		11AAA6C71C783D3D005979F3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,15 +154,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		11AAA6F41C783E4E005979F3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				11AAA6C31C783D30005979F3 /* Info.plist */,
-				11AAA6C41C783D30005979F3 /* Networking.h */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -160,7 +161,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11AAA6C61C783D30005979F3 /* Networking.h in Headers */,
+				1192D5941CC121EF00BBBD50 /* Networking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11AAA6F21C783E16005979F3 /* Client.swift in Sources */,
-				11AAA6F31C783E16005979F3 /* Request.swift in Sources */,
-				118585941C784FDC00577644 /* RequestParameters.swift in Sources */,
+				1192D5921CC121EF00BBBD50 /* Client.swift in Sources */,
+				1192D5951CC121EF00BBBD50 /* Request.swift in Sources */,
+				1192D5961CC121EF00BBBD50 /* RequestParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +413,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Networking";
@@ -434,7 +435,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Networking";
